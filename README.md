@@ -1,6 +1,6 @@
 # Multiple Line Writer
 
-This program allows users to write multiple lines of text to a file named `myfile.txt`.
+This program allows users to write multiple lines of text to a file named `mylife.txt`.
 
 ## Features
 
