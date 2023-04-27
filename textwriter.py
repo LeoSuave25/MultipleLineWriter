@@ -6,13 +6,13 @@ print("\033[32m",fig.figlet_format(title),"\033[m")
 print(fig.figlet_format("Made by: Leoj M Suaverdez",font="bubble"))
 # Make a function to write to a file
 def writer(to_write):
-    with open('myfile.txt', 'a') as outputfile:
+    with open('mylife.txt', 'a') as outputfile:
         outputfile.write(str(to_write) + "\n")
 # Ask for user input what to write in the myfile.txt
 # Put it in a while loop with a condition if response is 'y'
 response = 'y'
 while response.lower() == 'y':
-    print("\033[1;32mAre there more lines? (y/n)\033[0m")
+    print("\033[1;32mEnter Line: \033[0m")
     words_to_write = input()
     writer(words_to_write)
     while True:
